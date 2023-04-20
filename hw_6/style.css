@@ -1,0 +1,238 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  max-width: 1600px;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+.top__nav {
+  height: 75px;
+  background: #222222;
+}
+
+.top__nav button {
+  padding-top: 25px;
+  padding-bottom: 19px;
+  background: #222222;
+  border: none;
+}
+
+.navi {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  gap: 41px;
+}
+
+.menu {
+  display: flex;
+  gap: 33px;
+}
+
+.brand {
+  background: #f1e4e6;
+  display: flex;
+}
+
+.brand__header {
+  width: 405px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.brand__header h1 {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 58px;
+  color: #222222;
+  border-left: 12px solid #f16d7f;
+  padding-left: 16px;
+}
+
+.brand__header h3 {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 38px;
+  color: #222222;
+  border-left: 12px solid #f16d7f;
+  padding-left: 16px;
+}
+
+.textcolor {
+  color: #f16d7f;
+}
+
+.category__selection {
+  min-height: 470px;
+  margin-top: 65px;
+  margin-bottom: 96px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 30px;
+}
+
+.category__selection h3 {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+}
+
+.category__selection h5 {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.women {
+  background-image: url(./img/for_women.png);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.kids {
+  background-image: url(./img/for_kids.png);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.men {
+  background-image: url(./img/for_men.png);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.accesories {
+  grid-row: 2 / 3;
+  grid-column: 1 / span 3;
+  background-image: url(./img/accesories.png);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.cards__main {
+  margin-bottom: 48px;
+}
+
+.cards__header {
+  text-align: center;
+  padding-bottom: 48px;
+}
+
+.cards__header h3 {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+  color: #222222;
+  padding-bottom: 6px;
+}
+
+.cards__header p {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #9f9f9f;
+}
+
+.cards_items {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  /* grid-template-rows: 1fr 1fr 1fr; */
+  gap: 30px;
+}
+
+.card {
+  background: #f8f8f8;
+}
+
+.cards_items h5 {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+  color: #000000;
+  padding-top: 25px;
+  padding-bottom: 16px;
+  padding-left: 16px;
+}
+
+.description {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 17px;
+  color: #5d5d5d;
+  padding-left: 16px;
+}
+
+.price {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #f16d7f;
+  padding-top: 16px;
+  padding-left: 16px;
+}
+
+.browse {
+  border: 1px solid #ff6a6a;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #f26376;
+  padding: 14px 38px;
+  background-color: #ffffff;
+}
+
+.browse_btn {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 60px;
+}
